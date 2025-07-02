@@ -2,7 +2,7 @@ import { describe, it, vi, beforeEach, expect } from "vitest";
 import { renderHook } from "@testing-library/react";
 import { useBeforeUnload } from ".";
 
-describe("@react-hooks/useBeforeUnload", () => {
+describe("@/react-hooks/useBeforeUnload", () => {
   const addEventListenerSpy = vi.spyOn(window, "addEventListener");
   const removeEventListenerSpy = vi.spyOn(window, "removeEventListener");
 
