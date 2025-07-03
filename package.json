@@ -17,5 +17,8 @@
     "jsdom": "^26.1.0",
     "react": "^19.1.0",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "event-source-plus": "^0.1.11"
   }
 }
